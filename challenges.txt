@@ -1,0 +1,80 @@
+challenge 1:
+app.get() to render home.ejs
+
+challenge 2:
+home.ejs and pass startingContent & homeStartingContent
+
+
+
+challenge 3:
+add <%- include('header.ejs'); %>
+add <%- inlcude('footer.ejs'); %>
+
+challenge 4:
+move header.ejs, footer.ejs to partials folder
+
+challenge 5:
+when enter localhost:3000/about
+localhost:/contact 
+show relevant text
+
+challenge 6:
+update links in navbar to directly go to /about, /contact
+
+challenge 7:
+add new /compose route. 
+with simple form  input text and publish button
+
+challenge 8:
+in /compose after clicking Publish console.log content from input box
+
+challenge 9:
+transform /compose page using bootstrap
+	9.1 use textarea instead of input
+	9.2 use "form-group", "form-control"
+
+challenge 10:
+create javascript object of the postTitle, postBody
+
+challenge 11:
+push object from challenge 10 to a new array posts
+and console log this array
+
+challenge 12:
+pass object from challenge 11 to home.ejs
+
+challenge 13:
+loop posts array (already in 12)
+
+challenge 14:
+forEach from 13
+
+challenge 15:
+Render posts in home page (already in 12)
+
+challenge 16:
+use route, params to get method
+to console.log the param value
+
+challenge 17:
+if put route that is in the post history
+localhost/post/:postTitle, console.log "match found"
+
+challenge 18: lo dash - skip
+
+challenge 19:
+update post.ejs so that when put the endpoint from 17 
+it will show post from that topic
+
+challenge 20:
+only in the overview page. truncate post body using myString.substring(0,100);
+
+
+
+
+
+
+
+
+
+
